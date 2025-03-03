@@ -1,0 +1,64 @@
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	width: 100%;
+	background-image: url(./images/background.jpg);
+	background-size: cover;
+	background-position: top right;
+	background-repeat: no-repeat;
+
+	font-size: 16px;
+}
+
+main {
+	flex: 3;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+footer {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+h1 {
+	font-family: "Triplicate A", monospace;
+	font-size: 3rem;
+	color: #fff;
+	font-weight: bold;
+	margin: 0;
+}
+
+h2 {
+	font-family: "Triplicate B", monospace;
+	font-size: 3rem;
+	color: #fff;
+	font-style: italic;
+	margin: 0;
+	margin-bottom: 3rem;
+	line-height: 0.8;
+}
+
+p {
+	font-family: "Triplicate B", monospace;
+	font-size: 20px;
+	color: #fff;
+	margin: 0;
+}
+
+a {
+	color: unset;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
