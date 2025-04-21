@@ -83,8 +83,9 @@
       <h2>Contact</h2>
       <p><a href="tel:9712581596">(971) 258-1596</a></p>
       <p><a href="mailto:hailee@hkarttherapy.com">hailee@hkarttherapy.com</a></p>
-      <form action="https://api.web3forms.com/submit" method="POST">
+      <form action="https://api.web3forms.com/submit" method="POST" onsubmit="this.reset();">
         <input type="hidden" name="access_key" value="35bfb263-de8f-426b-b010-e9db5c641451">
+        <input type="hidden" name="subject" value="Website Contact Form Submission">
         <label for="name">name</label>
         <input type="text" id="name" name="name" required />
         <label for="email">email</label>
