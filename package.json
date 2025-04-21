@@ -1,0 +1,19 @@
+{
+  "name": "hkarttherapy.love",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc && vite build",
+    "dev": "vite",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "vite": "^6.2.2"
+  }
+}
