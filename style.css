@@ -404,6 +404,7 @@ ul.nav-links li:hover {
 }
 
 .success-message {
+	display: none;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -411,7 +412,6 @@ ul.nav-links li:hover {
 	height: 100%;
 	background-color: var(--color-bg);
 	z-index: 100;
-	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
